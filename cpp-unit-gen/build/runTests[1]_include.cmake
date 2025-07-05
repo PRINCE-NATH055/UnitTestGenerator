@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/KIIT/Desktop/Keploy project/UnitTestGenerator/cpp-unit-gen/build/runTests[1]_tests.cmake")
+  include("/mnt/c/Users/KIIT/Desktop/Keploy project/UnitTestGenerator/cpp-unit-gen/build/runTests[1]_tests.cmake")
+else()
+  add_test(runTests_NOT_BUILT runTests_NOT_BUILT)
+endif()

@@ -1,0 +1,10 @@
+instructions: >
+  Generate unit tests for the given C++ class using GoogleTest.
+  Cover all public methods with valid, invalid, and boundary inputs.
+
+requirements:
+  - Include appropriate #include headers.
+  - Use TEST or TEST_F macros.
+  - Test expected values and exception handling (e.g., division by zero).
+  - Output only the final C++ test file content.
+  - Name the test class `MathUtilsTest`.

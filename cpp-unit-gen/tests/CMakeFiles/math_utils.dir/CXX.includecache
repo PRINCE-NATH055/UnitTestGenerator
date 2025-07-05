@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/KIIT/Desktop/Keploy project/UnitTestGenerator/cpp-unit-gen/src/math_utils.cpp
+math_utils.h
+/mnt/c/Users/KIIT/Desktop/Keploy project/UnitTestGenerator/cpp-unit-gen/src/math_utils.h
+stdexcept
+-
+
+/mnt/c/Users/KIIT/Desktop/Keploy project/UnitTestGenerator/cpp-unit-gen/src/math_utils.h
+stdexcept
+-
+
